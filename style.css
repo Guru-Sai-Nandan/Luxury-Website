@@ -1,0 +1,182 @@
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-bg {
+    padding: 4rem;
+    background-color: #FAF6F1;
+}
+
+.brand-name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.navbar {
+    background-color: #FAF6F1;
+}
+
+.nav-link {
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    border-bottom: rgb(145, 58, 107) solid 2.4px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-name {
+    font-weight: bold;
+    font-size: 37px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.carousel-item {
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 40%;
+    left: 17%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(17, 16, 16, 0.6);
+}
+.text {
+    color: whitesmoke;
+}
+
+
+.card {
+    width: 19rem;
+}
+
+.card-img {
+    height: 240px;
+}
+
+.card-title {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.card-price {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.card {
+    transition: all 0.35s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.services-img {
+    height: 380px;
+    padding: 10px;
+}
+
+.services-heading {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.services-para {
+    color: rgb(67, 65, 65);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.services-button {
+    color: white;
+    font-size: 21px;
+    background-color: rgb(123, 63, 63);
+    padding: 8px;
+}
+
+.services-bg1 {
+    background-color: #2B2125;
+}
+
+.services-img1 {
+    height: 100%;
+}
+
+.services-heading1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.services-para1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.services-button1 {
+    color: black;
+    font-size: 19px;
+    background-color: rgb(214, 212, 212);
+    padding: 8px;
+    margin-top: 12px;
+    border-width: 0;
+    font-weight: 400;
+
+}
+
+.pic1 {
+    height: 320px;
+}
+
+.pic2 {
+    margin: 5px;
+    height: 162px;
+}
+
+.insta-button {
+    color: white;
+    font-size: 21px;
+    background-color: rgb(123, 63, 63);
+    padding: 9px;
+    width: 180px;
+    margin-left: 10%;
+}
+
+.aboutus-text {
+    font-size: 22px;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fa-brands {
+    margin-top: 14px;
+    font-size: 33px;
+    margin-right: 20px;
+}
+
+.contactus-heading {
+    font-size: 26px;
+}
+
+.contactus-para {
+    color: rgb(113, 112, 112);
+    font-size: 20px;
+}
